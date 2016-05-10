@@ -41,12 +41,12 @@ server.get("/demo/getexample", function(req, res) {
     //console.log('request  description: ');
 
     var date = new Date();
-    var respRandomValue = date.getHours();
+  //  var respRandomValue = date.getHours();
 
  //  var respRandomValue = Math.floor(Math.random() * 10 + 1) ;
 
 //  console.log('request  description: ', respRandomValue);
-    res.json({type: true, data: 'Valasz' + respRandomValue});
+    res.json({type: true, data: 'Valasz' + date});
 
 
     // prepare the json answer
